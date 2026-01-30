@@ -4,7 +4,7 @@ from sqlalchemy.orm import sessionmaker
 
 # UPDATE THIS LINE with your MySQL password and database name
 # Format: mysql+pymysql://username:password@localhost/databasename
-SQLALCHEMY_DATABASE_URL = "mysql+pymysql://root:password@localhost/dshare_db"
+SQLALCHEMY_DATABASE_URL = "mysql+pymysql://root:bsnl1546@localhost/dshare_db"
 
 engine = create_engine(SQLALCHEMY_DATABASE_URL)
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
